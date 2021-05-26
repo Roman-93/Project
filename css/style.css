@@ -18,6 +18,7 @@ body {
 }
 .button {
   text-decoration: none;
+  border: none;
 }
 .button-link {
   color: #111238;
@@ -32,4 +33,30 @@ body {
   padding-bottom: 15px;
   padding-left: 30px;
   color: #fff;
+}
+.hero-title {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+}
+.hero-text {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+.input-group {
+  border-right-color: #fff;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+.input {
+  background-color: #fff;
+  border: none;
+  flex: 100%;
 }
